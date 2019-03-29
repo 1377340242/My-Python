@@ -1,7 +1,7 @@
 > # BeautifulSoup库
 >
 > ## 有关BeautifulSoup库的安装、文档及用法
-
+>
 > ### **BeautifulSoup库的安装：**
 
 ```py
@@ -116,7 +116,6 @@ print(soup.body.contents)
 <a class="sister" href="http://example.com/lacie" id="link2">Lacie</a> and
 <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>;
 and they lived at the bottom of a well.</p>, '\n', <p class="story">...</p>, '\n']'''
-
 ```
 
 4.通过tag的`.children`生成器,可以对tag的子节点进行循环:
@@ -186,7 +185,6 @@ find_ALL(True) 可以匹配任何值,下面代码查找到所有的tag,但是不
 def find_tag(tag):
  return tag.has_attr('class') and not tag.has_attr('id')
 使用find_all(find_tag)调用
-
 ```
 
 10.CSS选择器
