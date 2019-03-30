@@ -41,34 +41,35 @@
       默认 -&gt; ""  
     副标题文本，支持 \n 换行。
 
-* width -&gt; int
+* width -&gt; int  
     默认 -&gt; 800（px）
 
   画布宽度。
 
-* height -&gt; int
+* height -&gt; int  
    默认 -&gt; 400（px）
 
-    画布高度。
+  画布高度。
 
-* title\_pos -&gt; str/int
-     默认 -&gt; 'left'
+* title\_pos -&gt; str/int  
+     默认 -&gt; 'left'  
    标题距离左侧距离，有'auto', 'left', 'right', 'center'可选，也可为百分比或整
 
-* title\_top -&gt; str/int     
-  默认 -&gt; 'top'
+* title\_top -&gt; str/int  
+  默认 -&gt; 'top'  
     标题距离顶部距离，有'top', 'middle', 'bottom'可选，也可为百分比或整数
 
-* title\_color -&gt; str   默认 -&gt; '\#000'
+* title\_color -&gt; str   默认 -&gt; '\#000'  
     主标题文本颜色。
 
-* subtitle\_color -&gt; str
-     默认 -&gt; '\#aaa'
+* subtitle\_color -&gt; str  
+     默认 -&gt; '\#aaa'  
    副标题文本颜色
 
-* title\_text\_size -&gt; int
-     默认 -&gt; 18
+* title\_text\_size -&gt; int  
+     默认 -&gt; 18  
      主标题文本字体大小。
+
 * subtitle\_text\_size -&gt; int
      默认 -&gt; 12
     副标题文本字体大小。
@@ -112,6 +113,10 @@
 * tooltip：提示框组件，用于移动或点击鼠标时弹出数据内容
 
 * toolbox：右侧实用工具箱
+
+上述具体参数见：
+
+官网---------&gt;[http://pyecharts.org/\#/zh-cn/charts\_configure?id=%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE%E9%A1%B9](http://pyecharts.org/#/zh-cn/charts_configure?id=%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE%E9%A1%B9)
 
 
 
