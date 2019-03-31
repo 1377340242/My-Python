@@ -1,16 +1,18 @@
-> # BeautifulSoup库
->
-> ## 有关BeautifulSoup库的安装、文档及用法
->
-> ### **BeautifulSoup库的安装：**
+# BeautifulSoup库
 
-```py
+> ## BeautifulSoup库
+>
+> ### 有关BeautifulSoup库的安装、文档及用法
+>
+> #### **BeautifulSoup库的安装：**
+
+```python
 pip install BeautifulSoup
 ```
 
-### **BeautifulSoup库的中文文档：**[**https://beautifulsoup.readthedocs.io/zh\_CN/v4.4.0/**](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/)
+#### **BeautifulSoup库的中文文档：**[**https://beautifulsoup.readthedocs.io/zh\_CN/v4.4.0/**](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/)
 
-```
+```text
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -26,7 +28,7 @@ and they lived at the bottom of a well.</p>
 
 1.首先建立soup对象：
 
-```py
+```python
 from bs4 import BeautifulSoup   #导入模块
 soup = BeautifulSoup(html_doc, 'html.parser')#将HTML网页字符内容传入BeautifulSoup
 #soup实质也是一个tag标签
@@ -67,7 +69,7 @@ print(soup.prettiry())
 
 2.BeautifulSoup的简单应用
 
-```
+```text
 soup.title
 #<title>The Dormouse's story</title>
 
@@ -93,11 +95,11 @@ and they lived at the bottom of a well.
 ...
 ```
 
-```
+```text
 2.BeautifulSoup的find和find_all方法：
 ```
 
-```
+```text
 1.find方法
 p=soup.find('p')#查找第一个p标签，返回的是一个tag对象
 #<class 'bs4.element.Tag'>
@@ -109,7 +111,7 @@ a=soup.find_all('a')#查找所有a标签，返回的是所有a标签组成的列
 
 3..content方法：可以将tag的子节点以列表的方式输出
 
-```
+```text
 print(soup.body.contents)
 '''['\n', <p class="title"><b>The Dormouse's story</b></p>, '\n', <p class="story">Once upon a time there were three little sisters; and their names were
 <a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>,
@@ -126,7 +128,7 @@ and they lived at the bottom of a well.</p>, '\n', <p class="story">...</p>, '\n
 
 5..descendants访问tag的所有子孙节点
 
-```
+```text
 descendants=soup.body.descendants
 for child in descendants:
     print(child)
@@ -135,7 +137,7 @@ for child in descendants:
 
 6.string对象
 
-```
+```text
 #string对象仅会返回一个标签的字符串，且当一个标签有子节点是就会返回None
 print(soup.p.string)
 #The Dormouse's story
@@ -147,21 +149,21 @@ print(soup.html.string)
 
 .strings返回标签的多个字符串生成器，其中可能包含空格
 
-```
+```text
 print(soup.html.strings)
 #<generator object _all_strings at 0x000001803E7E9048>
 ```
 
 .strpped\_srings返回不含空格的对个字符串列表
 
-```
+```text
 print(soup.html.stripped_strings)#不含空格
 #<generator object stripped_strings at 0x000001501D909048>
 ```
 
 8..parent:tag的父节点
 
-```
+```text
 print(soup.a.parent)
 #<p class="story">Once upon a time there were three little sisters; and their names were
 <a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>,
@@ -174,7 +176,7 @@ and they lived at the bottom of a well.</p>
 
 * 使用find\_all\(\)方法，其中limit参数表示限定查找的个数，如果只想搜索tag的直接子节点,可以使用参数`recursive=False`
 
-```
+```text
 find_all('a')#使用标签名搜索
 find_all('p',class_='title)#使用标签和属性进行精确搜索
 find_all('^<a')#使用正则表达式进行模糊搜索
@@ -189,7 +191,7 @@ def find_tag(tag):
 
 10.CSS选择器
 
-```
+```text
 #使用标签的方式
 soup.select("title")
 # [<title>The Dormouse's story</title>]
@@ -218,14 +220,10 @@ soup.select_one(".sister")#返回查找到的元素的第一个
 11.输出
 
 * `str()`方法返回UTF-8编码的字符串,可以指定[编码](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/#id55)的设置.
-
 * 调用`encode()`方法获得字节码或调用`decode()`方法获得Unicode.
-
 * 用`get_text()`方法获取到tag中所有子孙tag中的内容,并将结果作为Unicode字符串返回:
-
-* ```
+* ```text
   soup.get_text("|", strip=True)#去除获得文本内容的前后空白:
   #u'I linked to|example.com'
   ```
-
 
