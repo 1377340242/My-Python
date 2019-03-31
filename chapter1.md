@@ -227,6 +227,5 @@ soup.select_one(".sister")#返回查找到的元素的第一个
   soup.get_text("|", strip=True)#去除获得文本内容的前后空白:
   #u'I linked to|example.com'
   ```
-* 
 
 
