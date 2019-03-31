@@ -1,10 +1,10 @@
-# Table of contents
+# Summary
 
 * [Introduction](README.md)
 * [Python](python.md)
 * [BeautifulSoup库](chapter1.md)
-* [可视化库pyecharts](ke-shi-huaku-pyecharts/README.md)
-  * [数据准备](ke-shi-huaku-pyecharts/shu-ju-zhun-bei.md)
+* [可视化库pyecharts](ke-shi-huaku-pyecharts.md)
+  * [数据准备](ke-shi-huaku-pyecharts/ji-ben-pei-zhi/shu-ju-zhun-bei.md)
   * [漏斗图](ke-shi-huaku-pyecharts/lou-dou-56fe28-dao-san-jiao-56fe29.md)
   * [基本配置](ke-shi-huaku-pyecharts/ji-ben-pei-zhi.md)
   * [仪表盘](ke-shi-huaku-pyecharts/yi-biao-pan.md)
