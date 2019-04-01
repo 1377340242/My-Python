@@ -1,6 +1,6 @@
 ## 1.Bar
 
-```
+```py
 add(name='图例名称',x_axis=x轴数据,y_axis=y_轴数据，is_stack=True/False,bar_category_gap="20%柱的间隔",**args)
 ```
 
@@ -86,12 +86,12 @@ add(name, x_axis, y_axis, data,
 
   三维柱状图中三维图形的着色效果。
 
-  ```
-                  color：只显示颜色，不受光照等其它因素的影响。
+  ```py
+   color：只显示颜色，不受光照等其它因素的影响。
 
-                  lambert：通过经典的 lambert 着色表现光照带来的明暗。
+  lambert：通过经典的 lambert 着色表现光照带来的明暗。
 
-                 realistic：真实感渲染，配合 light.ambientCubemap 和 postEffect 使用可以让展示的画面效果和质感有质的提升。ECharts GL 中使用了基于物理的渲染（PBR\) 来表现真实感材质。
+  realistic：真实感渲染，配合 light.ambientCubemap 和 postEffect 使用可以让展示的画面效果和质感有质的提升。ECharts GL 中使用了基于物理的渲染（PBR\) 来表现真实感材质。
   ```
 
 * is\_grid3d\_rotate：bool&gt;&gt;启动自动旋转功能
