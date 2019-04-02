@@ -9,4 +9,7 @@
   * [仪表盘](ke-shi-huaku-pyecharts/yi-biao-pan.md)
   * [柱状图](ke-shi-huaku-pyecharts/ji-ben-ying-yong.md)
   * [散点图](ke-shi-huaku-pyecharts/san-dian-tu.md)
+* [matplotlib](matplotlib.md)
+  * [多个图形和轴](matplotlib/duo-ge-tu-xing-he-zhou.md)
+  * [plt常用命令](matplotlib/pltchang-yong-ming-ling.md)
 
