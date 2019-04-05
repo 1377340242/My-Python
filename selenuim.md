@@ -1,5 +1,5 @@
 > #### selenuim中文文档：[https://python-selenium-zh.readthedocs.io/zh\_CN/latest/](https://python-selenium-zh.readthedocs.io/zh_CN/latest/)
-
+>
 > ## 经验总结：
 
 ##### 1.获取网页HTML内容
@@ -31,13 +31,23 @@ current_handle=driver.current_window_handle#当前控制窗口
 driver.switch_to.window(driver.window_handles[1])#将控制窗口转移到另外窗口
 ```
 
-### 常用命令：
+### 常用命令：
 
-driver.close\(\)\#关闭当前窗口
+driver.close\(\)\#关闭当前窗口
 
 driver.quit\(\)\#关闭所有窗口，即关闭浏览器
 
-等待。。。。
+back\(\)，forward\(\) 浏览器的后退和前进
+
+##### cookie操作
+
+`get_cookies()#返回所有cookie`
+
+`delete_all_cookes()#删除所有cookie`
+
+`add_cookie()#添加cookie`
+
+显示等待。。。。
 
 ```
 wait=WebDriverWait(self.driver,5).until(EC.presence_of_element_located((By.CLASS_NAME,'pager_next')))
@@ -99,5 +109,9 @@ find\_elements\_by\_class\_name
 
 find\_elements\_by\_css\_selector
 
+元素操作：
 
+elements.text\#返回元素文本
+
+elements.get\_attribute\('属性名'\)\#返回属性
 
