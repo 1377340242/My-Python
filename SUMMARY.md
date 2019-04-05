@@ -10,4 +10,5 @@
   * [仪表盘](ke-shi-huaku-pyecharts/yi-biao-pan.md)
   * [柱状图](ke-shi-huaku-pyecharts/ji-ben-ying-yong.md)
   * [散点图](ke-shi-huaku-pyecharts/san-dian-tu.md)
+* [selenuim](selenuim.md)
 
