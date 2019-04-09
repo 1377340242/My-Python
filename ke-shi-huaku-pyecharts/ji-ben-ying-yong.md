@@ -7,7 +7,7 @@ add(name='图例名称',x_axis=x轴数据,y_axis=y_轴数据，is_stack=True/Fal
 主要参数\*\*args:
 
 * name:str&gt;&gt;&gt;图例名称
-* x\_\_axis:li\_st\(str\)&gt;&gt;x轴数据，可进行拼接  x\_axis=x\*2
+* x\_axis:li\_st\(str\)&gt;&gt;x轴数据，可进行拼接  x\_axis=x\*2
 * y\_axis:list&gt;&gt;y轴数据,也可进行数据拼接_   y_\_axis=y1+y2
 * is\_stack=:bool&gt;&gt;是否堆叠
 * bar\__categort\_gap:str&gt;&gt;_柱的间距

@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Python](python.md)
 * [BeautifulSoup库](chapter1.md)
+* [selenuim](selenuimku.md)
 * [可视化库pyecharts](ke-shi-huaku-pyecharts.md)
   * [漏斗图](ke-shi-huaku-pyecharts/lou-dou-56fe28-dao-san-jiao-56fe29.md)
   * [基本配置](ke-shi-huaku-pyecharts/ji-ben-pei-zhi.md)
@@ -13,4 +14,6 @@
   * [多个图形和轴](matplotlib/duo-ge-tu-xing-he-zhou.md)
   * [plt常用命令](matplotlib/pltchang-yong-ming-ling.md)
 * [visdom](visdom.md)
+
+
 
