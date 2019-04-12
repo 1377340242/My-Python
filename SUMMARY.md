@@ -13,6 +13,7 @@
 * [matplotlib](matplotlib.md)
   * [多个图形和轴](matplotlib/duo-ge-tu-xing-he-zhou.md)
   * [plt常用命令](matplotlib/pltchang-yong-ming-ling.md)
+* [visdom](visdom.md)
 
 
 
