@@ -5,8 +5,8 @@ import pymysql
 config = {
     'host': 'localhost',
     'user': 'root',
-	'database':'db',
-	'port':3306,
+    'database':'db',
+    'port':3306,
     'password': 'root',
     'charset': 'utf8'
 }
@@ -36,7 +36,7 @@ cursor.executemany(sql,args)#批量执行SQL语句,实际上该函数是遍历ar
 重复执行cursor.execute(sql,args)函数。
 ```
 
-### 3.
+### 3.在插入数据时，执行完cursor.execute或cursor.executemany后，一定要记得db.commit\(\)提交数据，切记啊啊啊啊啊啊。。。。。
 
 
 
