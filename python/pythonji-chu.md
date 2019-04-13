@@ -1,15 +1,14 @@
 > ## 需要注意的要点：
 
 * #### **在字符串中嵌入一个单引号**
+* 字符串在单引号中时，使用\'方法
 
-1. 字符串在单引号中时，使用\'方法
-2. 字符串在双引号中时，直接只用'号
+* 字符串在双引号中时，直接只用'号
 
 * #### **运算符操作**
+* x is y或者x is not y:判断x的地址和y的地址是否一样
 
-1. x is y或者x is not y:判断x的地址和y的地址是否一样
-
-2. x/y,x//y,x%y:分别代表x除y、取整、取余。
+* x/y,x//y,x%y:分别代表x除y、取整、取余。
 
 * #### try/except/else/finally异常处理机制中，else为未出现异常时执行，finally为无论是否异常都必须要执行
 * #### 回调函数：将函数作为参数传递给另外函数的操作
@@ -24,13 +23,25 @@
 # 获取列表的第二个元素
 def takeSecond(elem):
     return elem[1]
- 
+
 # 列表
 random = [(2, 2), (3, 4), (4, 1), (1, 3)]
- 
+
 # 指定第二个元素排序
 random.sort(key=takeSecond)
  #排序列表：[(4, 1), (2, 2), (1, 3), (3, 4)]
+```
+
+* #### map函数：对序列中的每个元素进行操作，然后返回新的序列，一般和lambda函数使用。
+* #### filter函数：对序列中的每个元素进行筛选，注意返回的是一个filter对象，可使用list（filter）转换成列表。和lambda函数共同使用。
+* #### reduce函数：序列元素进行累计操作，如果设置初始值，则从初始值开始计算。python3中需要from functools import reduce 导入reduce函数。
+
+```
+reduce(function, iterable[, initializer])
+function -- 函数，有两个参数
+iterable -- 可迭代对象
+initializer -- 可选，初始参数
+#reduce(lambda x, y: x+y, [1,2,3,4,5])  # 使用 lambda 匿名函数
 ```
 
 
