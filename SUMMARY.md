@@ -16,5 +16,5 @@
   * [plt常用命令](matplotlib/pltchang-yong-ming-ling.md)
 * [Visdom](visdom.md)
 * [Mysql](mysql.md)
-  * [mysql](mysql/mysql.md)
+  * [Pymysql](mysql/mysql.md)
 
