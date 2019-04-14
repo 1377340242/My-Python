@@ -2,8 +2,9 @@
 
 * [Introduction](README.md)
 * [Python](python.md)
-  * [python基础](python/pythonji-chu.md)
+  * [Python基础](python/pythonji-chu.md)
 * [BeautifulSoup库](chapter1.md)
+* [Numpy](python/numpy.md)
 * [Selenuim](selenuimku.md)
 * [可视化库pyecharts](ke-shi-huaku-pyecharts.md)
   * [漏斗图](ke-shi-huaku-pyecharts/lou-dou-56fe28-dao-san-jiao-56fe29.md)
