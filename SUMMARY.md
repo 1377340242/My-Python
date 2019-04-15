@@ -22,4 +22,5 @@
 * [Plotly](plotly.md)
   * [Scatter](plotly/scatter.md)
   * [Xaxis/Yaxis](plotly/xaxisyaxis.md)
+  * cufflinks
 

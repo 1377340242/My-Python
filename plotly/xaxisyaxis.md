@@ -11,6 +11,8 @@
 * zeroline:bool,是否显示零线
 * zerocolor：零线颜色
 * zerowitdh：零线宽度
-
+* title：轴的标签
+* titlefont:轴标签的字体
+* 
 
 
