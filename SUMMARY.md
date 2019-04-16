@@ -27,4 +27,5 @@
   * [Layout](plotly/layout.md)
   * [Pie](plotly/pie.md)
   * [Annotations](plotly/annotations.md)
+* [词云](ci-yun.md)
 
