@@ -1,12 +1,12 @@
 > # 安装Visdom
 >
->  pip install visdom
+> pip install visdom
 >
 > 启动visdom服务器：
 >
 > cmd：python -m version.server
 
-## visdom.maplot API:
+## visdom.maplot :
 
 参数：
 
@@ -17,8 +17,6 @@ plt：maplotlib.pyplot 中的plt
 参数：
 
 figure：plotly figure对象。
-
-
 
 ## visdom.image\(\)：
 
@@ -47,6 +45,4 @@ vis=Visdom(image,opts=dict(title='标题'，caption='图片标题'))
 参数与visdom.image\(\)相似，只不过要求img为思维数据（B\*H\*W\*C），B代表图片数量
 
 nrow=8&gt;&gt;默认8行
-
-
 

@@ -11,7 +11,12 @@
 * zeroline:bool,是否显示零线
 * zerocolor：零线颜色
 * zerowitdh：零线宽度
+* type：轴的类型，"-" \| "linear" \| "log" \| "date" \| "category" \| "multicategory" 默认’-‘
+* side：坐标轴的位置， "top" \| "bottom" \| "left" \| "right"
+* domain：轴的坐标区域\[0,1\]。
 * title：轴的标签
+* overlaying：覆盖的意思，overlaying=’free‘、’x‘、’y‘，覆盖相应标号的轴
+* anchor：与某个轴绑定。anchor=’free‘、\| "/^x\(\[2-9\]\|\[1-9\]\[0-9\]+\)?$/" \| "/^y\(\[2-9\]\|\[1-9\]\[0-9\]+\)?$/"
 * titlefont:轴标签的字体
 * tickangle=-45:设置刻度标签得旋转角度
 * ticksuffix='%':刻度值后缀。
@@ -21,9 +26,7 @@
 * rangeslider：滑块，rangeslider=dict{bgcolor='red',bodercolor='red',borderwidth=1,range=list\(\)}
 * rangeselector:选择器，rangeselector=dict{button=list\(dict\(step='month'\),stepmode='backward',count=1,label='1m'\)}
 
-step："month" \| "year" \| "day" \| "hour" \| "minute" \| "second" \| "all" 
+step："month" \| "year" \| "day" \| "hour" \| "minute" \| "second" \| "all"
 
-count=1,step=month:表示这个选择器覆盖时间为1xmonth，
-
-
+count=1,step=month:表示这个选择器覆盖时间为1xmonth。
 

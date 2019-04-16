@@ -15,6 +15,7 @@ Layout画面布置函数主要作用：
 * xaxis、yaxis参见Xaxis/Yaxis
 * barmode：条形图模式，stack
 * hoverlabel：鼠标悬停显示标签，hoverlabel=dict\(bgcolor='red',bordercolor='red',font=dict\(\)\)
-* 
+* legend=dict\(traceorder=’reversed‘\)，翻转图例的显示顺序。
+
 
 

@@ -7,6 +7,7 @@
 * name：图例名称
 * x：x轴数据
 * y：y轴数据
+* xaxis,yaxis:设置参考轴，默认:xaxis='x',yaxis='y',如果xaxis='x2'则表示x轴以 \`layout.xaxis2\`为参考轴
 * mode：图形格式，lines，markers，markers+lines，markers+lines+text
 * line：线条参数,line=dict\(color=‘block’,width=2,shape='linear'/'spline',smoothing='1.0',
 

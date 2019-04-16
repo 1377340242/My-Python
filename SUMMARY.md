@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Python](python.md)
   * [Python基础](python/pythonji-chu.md)
+  * [正则表达式](python/zheng-ze-biao-da-shi.md)
 * [BeautifulSoup库](chapter1.md)
 * [Numpy](python/numpy.md)
 * [Selenuim](selenuimku.md)
