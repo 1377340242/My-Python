@@ -14,6 +14,9 @@
 * title：轴的标签
 * titlefont:轴标签的字体
 * tickangle=-45:设置刻度标签得旋转角度
+* ticksuffix='%':刻度值后缀。
+* range=\[0,1\],刻度范围
+* dtick=20，坐标间隔px
 
 
 

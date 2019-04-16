@@ -24,4 +24,6 @@
   * [Xaxis/Yaxis](plotly/xaxisyaxis.md)
   * [cufflinks](plotly/cufflinks.md)
   * [Layout](plotly/layout.md)
+  * [Pie](plotly/pie.md)
+  * [Annotations](plotly/annotations.md)
 
