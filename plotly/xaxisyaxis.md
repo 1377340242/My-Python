@@ -13,6 +13,7 @@
 * zerowitdh：零线宽度
 * title：轴的标签
 * titlefont:轴标签的字体
-* 
+* tickangle=-45:设置刻度标签得旋转角度
+
 
 
