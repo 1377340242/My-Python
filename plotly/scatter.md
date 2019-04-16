@@ -27,8 +27,8 @@ dash='solid'/'dot'/'dash',longdash\)
 
 **showscale=True显示颜色条,**sizeref当size为数组时设置的缩放系数，sizemode为缩放形式area（面积）、diameter（直径）
 
-* text：list\(str\)元素相应节点的文本
-* textposition：文本位置，'bottom center'
+* text：list\(str\)元素相应节点的文本，当mode中包含’text‘时文本直接显示，否则，鼠标悬停显示。
+* textposition：文本位置，'bottom center'，’top right‘，’bottom right‘，’top center‘
 * textfont：文本字体格式
 * connectgaps:bool，连接数据缺口
 

@@ -15,8 +15,15 @@
 * titlefont:轴标签的字体
 * tickangle=-45:设置刻度标签得旋转角度
 * ticksuffix='%':刻度值后缀。
+* tickprefix：刻度值前缀
 * range=\[0,1\],刻度范围
 * dtick=20，坐标间隔px
+* rangeslider：滑块，rangeslider=dict{bgcolor='red',bodercolor='red',borderwidth=1,range=list\(\)}
+* rangeselector:选择器，rangeselector=dict{button=list\(dict\(step='month'\),stepmode='backward',count=1,label='1m'\)}
+
+step："month" \| "year" \| "day" \| "hour" \| "minute" \| "second" \| "all" 
+
+count=1,step=month:表示这个选择器覆盖时间为1xmonth，
 
 
 
