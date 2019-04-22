@@ -30,5 +30,18 @@ mysql安装：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/dow
 
 * 在需要从多个值中选取**一个**时，可以使用ENUM；在需要取**多个**值的时候，适合使用SET类型，
 
+### 建立主键和外键时需要注意的事项：
 
+* 主键中的值必须唯一
+* 建立外键时的四种动作
+
+cascade：主表删除或更新相应的数据行，则子表同时删除或更新与主表相匹配的行，即级联删除、更新。
+
+set null：主表删除或更新相应的数据和，则子表同时将与主表相匹配的行的外键列置为null。当外键列被设置为not null时无效。
+
+no action：数据库拒绝删除或更新主表。
+
+restrict：数据库拒绝删除或更新主表。如果未指定on delete或on update的动作，则on delete或on update的默认动作就为restrict。
+
+**注意事项：设置外键的表称为子表，外键参考的表为父表**
 

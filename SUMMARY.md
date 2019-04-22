@@ -5,6 +5,7 @@
   * [Python基础](python/pythonji-chu.md)
   * [正则表达式](python/zheng-ze-biao-da-shi.md)
 * [BeautifulSoup库](chapter1.md)
+* [pandas](pandas.md)
 * [Numpy](python/numpy.md)
 * [Selenuim](selenuimku.md)
 * [可视化库pyecharts](ke-shi-huaku-pyecharts.md)
@@ -27,5 +28,5 @@
   * [Layout](plotly/layout.md)
   * [Pie](plotly/pie.md)
   * [Annotations](plotly/annotations.md)
-* [词云](ci-yun.md)
+* pandas
 
