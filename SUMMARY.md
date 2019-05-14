@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Python](python.md)
   * [Python基础](python/pythonji-chu.md)
+  * [Python术语](python/pythonzhu-yu.md)
   * [Python使用注意事项](python/pythonshi-yong-zhu-yi-shi-xiang.md)
   * [正则表达式](python/zheng-ze-biao-da-shi.md)
 * [BeautifulSoup库](chapter1.md)
