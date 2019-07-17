@@ -30,5 +30,4 @@
   * [Layout](plotly/layout.md)
   * [Pie](plotly/pie.md)
   * [Annotations](plotly/annotations.md)
-* pandas
 
